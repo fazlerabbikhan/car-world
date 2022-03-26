@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "BMW 3 Series",
+        "price": "৳ 13,400,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/BMW-3-Series-Black.jpg"
+    },
+    {
+        "id": 2,
+        "name": "BMW 5 Series",
+        "price": "৳ 12,000,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/BMW-5-Series-white.png"
+    },
+    {
+        "id": 3,
+        "name": "BMW X2",
+        "price": "৳ 13,241,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/2020-BMW-X2-SUV-blue.jpg"
+    },
+    {
+        "id": 4,
+        "name": "BMW X7",
+        "price": "৳ 37,200,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/bmw-x7-2020-Red-wine.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Hyundai Accent",
+        "price": "৳ 2,250,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/2020-hyundai-accent-blue-2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hyundai Elantra",
+        "price": "৳ 4,549,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/elantra-dark-silver.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Hyundai Sonata",
+        "price": "৳ 4,700,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/hyundai_sonata_hyundai-sonata-red1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Hyundai Tucson",
+        "price": "৳ 5,500,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/tucson-blue.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Marcedes-Benz B Class",
+        "price": "৳ 5,500,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/marcedes-Benz-B-Class-Black-1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mercedes-Benz CLA",
+        "price": "৳ 13,577,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/2015-mercedes-benz-cla-black.png"
+    },
+    {
+        "id": 11,
+        "name": "Mercedes-Benz E Class",
+        "price": "৳ 37,943,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/mercedes-e-class-amg-silver.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Mercedes-Benz GLC 350D 4Matic",
+        "price": "৳ 12,700,000",
+        "picture": "https://4wheelerbd.com/wp-content/uploads/2020/10/2018-mercedes-benz-glc-class-white.png"
+    }
+]
