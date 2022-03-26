@@ -1,0 +1,20 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    justify-content: center;
+}
+
+.selected-item{
+    justify-content: center;
+}
+
+.selected-item img{
+    justify-content: center;
+    height: 100px;
+    width: 140px;
+}
+
+.cart-buttons{
+margin: 5px;
+}
