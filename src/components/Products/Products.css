@@ -1,4 +1,31 @@
+.product{
+    background-color: bisque;
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    position: relative;
+}
+
 .product img{
-    height: 250px;
-    width: 350px;
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.product-info{
+    text-align: center;
+}
+
+.btn-addtocart{
+    background-color: lightslategray;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-addtocart:hover{
+    background-color: navy;
 }

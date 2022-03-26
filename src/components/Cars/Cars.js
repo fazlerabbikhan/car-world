@@ -12,7 +12,7 @@ const Cars = () => {
     }, [])
 
     return (
-        <div className='cars'>
+        <div className='cars-container'>
             <div className='products-container'>
                 {
                     products.map(product => <Products
