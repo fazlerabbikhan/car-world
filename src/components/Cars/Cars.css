@@ -23,3 +23,7 @@
         grid-template-columns: 1fr;
     }
 }
+
+.quesAns{
+    padding: 50px;
+}
