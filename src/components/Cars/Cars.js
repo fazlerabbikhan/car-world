@@ -13,33 +13,45 @@ const Cars = () => {
             .then(data => setProducts(data))
     }, [])
 
-    const handleAddToCart = (product) => {
-        if (cart.length <= 3) {
+    // handle Add to Cart button
+    const addToCart = (product) => {
+        if (cart.length <= 3 && cart.indexOf(product) === -1) {
             const newCart = [...cart, product];
             setCart(newCart);
             console.log(newCart);
         }
+        else if (cart.indexOf(product) !== -1) {
+            alert('You have already selected this item.');
+        }
+        else {
+            alert('You can add maximum 4 items.');
+        }
     }
 
+    // handle Choose 1 For Me button
+    const choose1ForMe = () => {
+        if (cart.length !== 0) {
+            const randomItem = cart[Math.floor(Math.random() * cart.length)];
+            setCart([randomItem]);
+            console.log([randomItem]);
+        }
+    }
+
+    // handle Choose Again button
     const chooseAgain = () => {
         setCart([]);
-    }
-
-    const choose1ForMe = () => {
-        const randomItem = cart[Math.floor(Math.random() * cart.length)];
-        setCart([randomItem]);
-        console.log([randomItem]);
     }
 
     return (
         <div className='cars-container'>
             <div className='product-container'>
                 {
-                    products.map(product => <Product
-                        key={product.id}
-                        product={product}
-                        handleAddToCart={handleAddToCart}
-                    ></Product>)
+                    products.map(product =>
+                        <Product
+                            key={product.id}
+                            product={product}
+                            addToCart={addToCart}
+                        ></Product>)
                 }
             </div>
             <div className='cart-container'>

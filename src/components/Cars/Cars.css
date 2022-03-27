@@ -1,7 +1,7 @@
 .cars-container{
     background-color: lightsalmon;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .product-container{
@@ -13,4 +13,13 @@
 
 .cart-container{
     background-color: beige
+}
+
+@media screen and (max-width: 576px) {
+    .cars-container{
+        grid-template-columns: 2fr 1fr;
+    }
+    .product-container{
+        grid-template-columns: 1fr;
+    }
 }
