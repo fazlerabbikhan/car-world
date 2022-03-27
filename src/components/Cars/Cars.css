@@ -4,7 +4,7 @@
     grid-template-columns: 4fr 1fr;
 }
 
-.products-container{
+.product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;

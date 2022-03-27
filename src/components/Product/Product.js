@@ -1,15 +1,15 @@
 import React from 'react';
-import './Products.css'
+import './Product.css'
 
-const Products = ({ product, handleAddToCart }) => {
+const Product = ({ product, handleAddToCart }) => {
     const { name, price, picture } = product;
 
     return (
         <div className='product'>
             <img src={picture} alt="" />
             <div className='product-info'>
-                <h2>{name}</h2>
-                <h3>Price: {price}</h3>
+                <h3>{name}</h3>
+                <h4>Price: {price}</h4>
             </div>
             <button onClick={() => handleAddToCart(product)} className='btn-addtocart'>
                 <p>Add to Cart 🛒</p>
@@ -18,4 +18,4 @@ const Products = ({ product, handleAddToCart }) => {
     );
 };
 
-export default Products;
+export default Product;

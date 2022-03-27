@@ -1,33 +1,33 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({ cart }) => {
-
-    let name;
-    let picture;
-    let price;
-    for (const product of cart) {
-        name = product.name;
-        picture = product.picture;
-        price = product.price;
-    }
+const Cart = ({ cart, chooseAgain, choose1ForMe }) => {
 
     return (
         <div className='cart'>
-            <h2>Order Summary</h2>
-            <div className='selected-item'>
+            <div className='order-summary'>
+                <h2>Order Summary</h2>
+            </div>
+            <div>
                 {
                     cart.map(product =>
-                        <div key={product.id}>
-                            <img src={picture} alt="" />
-                            <h3>{name}</h3>
-                            <h3>Price: {price}</h3>
+                        <div className='selected-item'
+                            key={product.id}>
+                            <div>
+                                <img src={product.picture} alt="" />
+                            </div>
+                            <div>
+                                <h4>{product.name}</h4>
+                                <h5>Price: {product.price}</h5>
+                            </div>
                         </div>
                     )
                 }
             </div>
-            <button className='cart-buttons'>Choose 1 For Me</button>
-            <button className='cart-buttons'>Choose Again</button>
+            <div className='btn-cart-container'>
+                <button onClick={() => choose1ForMe()} className='btn-cart'><p>Choose 1 For Me</p></button>
+                <button onClick={() => chooseAgain()} className='btn-cart'><p>Choose Again</p></button>
+            </div>
         </div>
     );
 };
